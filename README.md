@@ -6,13 +6,13 @@ Thus in this project I have used the newsapi provided by [newsapi.org](newsapi.o
 The json data provided by this api is in the following manner
 ```python
 {'articles': [{'author': 'Fleet Street Fox',
-                'description': 'The alternative coalition of lexical chaos would see us all tweeting about Ed Balls',
-                'publishedAt': '2017-04-28T12:35:03Z',
-                'title': 'A strong, stable leader needs strength, stability and a stable, strong message',
+                'description': 'The alternative coalition of <br>lexical chaos would see us all tweeting about Ed <br>Balls',<br>
+                'publishedAt': '2017-04-28T12:35:03Z',<br>
+                'title': 'A strong, stable leader needs strength, <br>stability and a stable, strong message',<br>
                 'url': 'http://www.mirror.co.uk/news/uk-news/strong-stable-leadership-needs-3-10314956',
                 'urlToImage': 'http://i4.mirror.co.uk/incoming/article10314310.ece/ALTERNATES/s1200/fleet-may.jpg'},
                {'author': 'Voice of the Mirror',
-                'description': "The Tories' cruel \xa33bn cuts plan has left the education system teetering on the brink of collapse, according to unions",
+                'description': "The Tories' cruel \xa33bn cuts <br>plan has left the education system teetering on <br>the brink of collapse, according to unions",<br>
                 'publishedAt': '2017-04-27T21:40:43Z',
                 'title': "Voice of the Mirror: May's grim propaganda exposed by destruction of schools",
                 'url': 'http://www.mirror.co.uk/news/politics/voice-mirror-theresa-mays-grim-10311950',
