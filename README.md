@@ -2,7 +2,7 @@
 
 Many of the APIs that I came across provided only the headlines and urls of the news articles. None of them provided the content of that news article. The content of news may be required to apply various Machine Learning and Natural Language Processing techniques to improve the functionality of news websites. 
 
-Thus in this project I have used the newsapi provided by newsapi.org[newsapi.org] 
+Thus in this project I have used the newsapi provided by [newsapi.org](newsapi.org)
 The json data provided by this api is in the following manner
 ```python
 {'articles': [{'author': 'Fleet Street Fox',
@@ -34,7 +34,7 @@ The json data provided by this api is in the following manner
  'status': 'ok'}
 ```
 
-When you run the file #####fetchApiData.py, a new dictionary has been created with the key "data" which contains the content of the article from the url provided by "newsapi".
+When you run the file 'fetchApiData.py', a new dictionary has been created with the key "data" which contains the content of the article from the url provided by "newsapi".
 
 Output :
 ```python
