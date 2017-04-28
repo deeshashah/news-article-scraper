@@ -1,6 +1,7 @@
 from scraping.scraper import Scraper
 import requests
 import json
+import pprint
 # Fetch the json data from the newsapi.
 r = requests.get('https://newsapi.org/v1/articles?source=mirror&apiKey=6df0769e0d6244aaa00768c02f123fb2')
 
@@ -16,6 +17,7 @@ response_dictionary["source"] = "mirror"
 #It is in the following format :
 apiFetchedData = json.loads(r.text)
 
+pprint.pprint(apiFetchedData) 
 # print data["articles"]
 list_of_urls = []
 article_data = []
