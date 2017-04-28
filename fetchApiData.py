@@ -16,8 +16,7 @@ response_dictionary["source"] = "mirror"
 #The json data fetched from API is to be stored in a variable.
 #It is in the following format :
 apiFetchedData = json.loads(r.text)
-
-pprint.pprint(apiFetchedData) 
+ 
 # print data["articles"]
 list_of_urls = []
 article_data = []
@@ -52,5 +51,5 @@ for item in apiFetchedData["articles"]:
     i = i+1
     
 
-response_dictionary["articles"] = article_data
-print response_dictionary
+response_dictionary["articles"] = main_dict
+pprint.pprint(response_dictionary,width=10)
