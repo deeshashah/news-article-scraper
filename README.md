@@ -54,3 +54,5 @@ Output :
                             so on..
               }
 ```
+
+This code has been written to scrape articles from the source "Mirror". Many other news sites can be scraped. In order to add scraper for many other sites, write the scraping code in the "scraping" package.
