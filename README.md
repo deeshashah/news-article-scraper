@@ -1,8 +1,11 @@
 # News Article Scraper 
 
+TL;DR - This code uses  [newsapi.org](newsapi.org) to get news article URL and then scrape news content from various sources, and returns the JSON response of the scraped data.  
+
 Many of the APIs that I came across provided only the headlines and urls of the news articles. None of them provided the content of that news article. The content of news may be required to apply various Machine Learning and Natural Language Processing techniques to improve the functionality of news websites. 
 
 Thus in this project I have used the newsapi provided by [newsapi.org](newsapi.org)
+
 The json data provided by this api is in the following manner
 
 ```python
@@ -31,7 +34,9 @@ The json data provided by this api is in the following manner
 }
 ```
 
-When you run the file 'fetchApiData.py', a new dictionary has been created with the key "data" which contains the content of the article from the url provided by "newsapi".
+I have written a custom scraper code to scrape the data from the above URL and then after processing, following JSON is returned.
+
+When you run the file `fetchApiData.py`, a new dictionary has been created with the key `data` which contains the content of the article from the url provided by [newsapi.org](newsapi.org).
 
 Output :
 ```python
