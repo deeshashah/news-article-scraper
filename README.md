@@ -1,6 +1,6 @@
 # News Article Scraper 
 
-TL;DR - This code uses  [newsapi.org](newsapi.org) to get news article URL and then scrape news content from various sources, and returns the JSON response of the scraped data.  
+*TL;DR - This code uses [newsapi.org](newsapi.org) to get news article URL and then scrape news content from various sources, and makes a dictionary of the scraped data.*  
 
 Many of the APIs that I came across provided only the headlines and urls of the news articles. None of them provided the content of that news article. The content of news may be required to apply various Machine Learning and Natural Language Processing techniques to improve the functionality of news websites. 
 
@@ -40,11 +40,13 @@ Data After Processing :
 ```python
 {
 	'articles': {
+			
 			'article_0': {
-						'data': "Thank you for that totally unstaged round of applause to this snap general election column which is the only one you will find that can provide the strength and stability to enable Britain to safely chart the uncertain waters of praying for the sweet release of death. That strength and stability doesn't sort itself out: the person in charge of this column must provide the steady hand on the linguistic tiller in a manner which is not just strong, but also stable, in order to avoid the rocky shoals which .... (so on)",
-                            			'image': 'http://i4.mirror.co.uk/incoming/article10314310.ece/ALTERNATES/s1200/fleet-may.jpg',
-                            			'title': 'A strong, stable leader needs strength, stability and a stable, strong message'
-					},
+					'data': "Thank you for that totally unstaged round of applause to this snap general election column which is the only one you will find that can provide the strength and stability to enable Britain to safely chart the uncertain waters of praying for the sweet release of death. That strength and stability doesn't sort itself out: the person in charge of this column must provide the steady hand on the linguistic tiller in a manner which is not just strong, but also stable, in order to avoid the rocky shoals which .... (so on)",
+                            		'image': 'http://i4.mirror.co.uk/incoming/article10314310.ece/ALTERNATES/s1200/fleet-may.jpg',
+                            		'title': 'A strong, stable leader needs strength, stability and a stable, strong message'
+				},
+				
               		'article_1': {
 					'data': "The destruction of good and excellent schools exposes the grim reality behind Theresa May and her Tory propaganda.Who would you believe? More than 500 heads who signed a protest letter... or a politician prepared to say anything to con people into voting Tory?The price of May\u2019s \xa33billion education cuts will be paid by the children of working and middle class families in thousands of ... (so on)",
                             		'image': 'http://i3.mirror.co.uk/incoming/article10311108.ece/ALTERNATES/s1200/PROD-Britains-Prime-Minister-Theresa-May-ges.jpg',
@@ -53,9 +55,7 @@ Data After Processing :
               	
                             .
                             .
-                            .
-                            .
-                            so on..
+			    .
               }
 }
 ```
