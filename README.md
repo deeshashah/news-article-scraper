@@ -63,6 +63,6 @@ Data After Processing :
 ### Steps to Execute the code
 - Get a API key for yourself from [newsapi.org](newsapi.org) and add it in the code `fetchApiData.py`.
 - Simply run `fetchApiData.py`. And the dictionary is being created with the above formatted JSON data. Its a basic python script.
-- Also I have made an API in Django which can be hosted on a server and given above formatted JSON when requested. [Check it out here] (some link).
+- Also I have made an API in Django which can be hosted on a server and given above formatted JSON when requested. [Check it out here] (https://github.com/deeshashah/Django-for-hosting-NewsDataApi).
 
 Note that - Current code scrapes articles from the source "Mirror". Many other news sites can be scraped. If you want to contribute the scraping code for other sources, add it in the code in the "scraping" package to support more sources.
