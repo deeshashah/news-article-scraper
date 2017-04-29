@@ -3,7 +3,8 @@ import requests
 import json
 import pprint
 # Fetch the json data from the newsapi.
-r = requests.get('https://newsapi.org/v1/articles?source=mirror&apiKey=6df0769e0d6244aaa00768c02f123fb2')
+# In order to use the newsapi, you need to get the api key from the website "newsapi.org" and insert it in the place of <add_your_own_api_key>
+r = requests.get('https://newsapi.org/v1/articles?source=mirror&apiKey=<add_your_own_api_key>')
 
 #Create a empty dictionary
 response_dictionary = {}
